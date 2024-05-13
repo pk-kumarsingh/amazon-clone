@@ -1,0 +1,49 @@
+*{
+    font-family: Arial;
+    margin: 0;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+    height: 50px;
+width: 100px;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.Deliver{
+    color: cccccc;
+    font-size: 0.85rem;
+}
+.india{
+    font-size: 1rem;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    .india{
+        display: flex;
+    }
+.border:hover{
+    border: 2px solid white;
+}
+.search{
+    display: flex;
+    background-color: pink;
+}
